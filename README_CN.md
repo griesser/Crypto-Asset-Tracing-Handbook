@@ -306,7 +306,7 @@ MistTrack 为用户提供多种功能，涵盖交易监控、风险评估、地�
 
 ![](./res/p28.png)
 
-第二个是攻击者给自己的地址转了 1 ETH，查看[交易详情](https://etherscan.io/tx/0x92a53d817e9a626292270d93259b10cba05a1e55bd0651ca7ef57b63b7294cf0)，发现是一句链上留言“sherlock missed it. ct \> ds. uniswap hook is not problem.”，可能是攻击者自己写的“备忘录”：
+第二个是攻击者给自己的地址转了 1 ETH，查看[交易详情](https://etherscan.io/tx/0x92a53d817e9a626292270d93259b10cba05a1e55bd0651ca7ef57b63b7294cf0)，发现是一句链上留言“sherlock missed it. ct \> ds. uniswap hook is not problem.”，据传，这条留言是因为 Cork Protocol 曾由 Sherlock 审计，而在讨论该漏洞时，Sherlock 认为问题在于 Uniswap Hook。攻击者特意通过这条链上留言澄清，被利用的原因并非该问题。
 
 ![](./res/p29.png)
 
